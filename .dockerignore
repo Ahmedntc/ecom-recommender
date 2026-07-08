@@ -1,0 +1,34 @@
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Environments
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Data e modelos (montados via volume no docker-compose)
+data/
+models/
+mlruns/
+logs/
+
+# Dev
+notebooks/
+.github/
+docs/
+
+# DVC cache
+.dvc/tmp/
+.dvc/cache/
